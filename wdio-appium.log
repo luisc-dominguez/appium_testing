@@ -1,0 +1,476 @@
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.4.2 (automationName 'UiAutomator2')
+[35m[Appium][39m   - xcuitest@4.7.2 (automationName 'XCUITest')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389614 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@30ee][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@30ee][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@30ee][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@30ee][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@30ee][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@30ee][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@30ee][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@30ee][39m   },
+[debug] [35m[XCUITestDriver@30ee][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@30ee][39m     {}
+[debug] [35m[XCUITestDriver@30ee][39m   ]
+[debug] [35m[XCUITestDriver@30ee][39m }
+[35m[XCUITestDriver@30ee (2a188289)][39m Session created with session id: 2a188289-e609-4ef4-99bb-99cf20ea5242
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389632 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@c102][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@c102][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@c102][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@c102][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@c102][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@c102][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@c102][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@c102][39m   },
+[debug] [35m[XCUITestDriver@c102][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@c102][39m     {}
+[debug] [35m[XCUITestDriver@c102][39m   ]
+[debug] [35m[XCUITestDriver@c102][39m }
+[35m[XCUITestDriver@c102 (256aa47d)][39m Session created with session id: 256aa47d-26f0-4180-accf-9a9eb85afc39
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389640 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@aad8][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@aad8][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@aad8][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@aad8][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@aad8][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@aad8][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@aad8][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@aad8][39m   },
+[debug] [35m[XCUITestDriver@aad8][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@aad8][39m     {}
+[debug] [35m[XCUITestDriver@aad8][39m   ]
+[debug] [35m[XCUITestDriver@aad8][39m }
+[35m[XCUITestDriver@aad8 (acb6d2af)][39m Session created with session id: acb6d2af-0768-43e5-85b8-284ea1550563
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[35m[XCUITestDriver@c102 (256aa47d)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@30ee (2a188289)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@aad8 (acb6d2af)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@c102 (256aa47d)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244389816 (10:26:29 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m204 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[XCUITestDriver@aad8 (acb6d2af)][39m {}
+[35m[XCUITestDriver@30ee (2a188289)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244389837 (10:26:29 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244389837 (10:26:29 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m198 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m225 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389842 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@e3a7][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@e3a7][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@e3a7][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@e3a7][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@e3a7][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@e3a7][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@e3a7][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@e3a7][39m   },
+[debug] [35m[XCUITestDriver@e3a7][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@e3a7][39m     {}
+[debug] [35m[XCUITestDriver@e3a7][39m   ]
+[debug] [35m[XCUITestDriver@e3a7][39m }
+[35m[XCUITestDriver@e3a7 (ca7a26c2)][39m Session created with session id: ca7a26c2-dba3-472e-a020-ba9a1dcb1d7f
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389852 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@ddd2][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@ddd2][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@ddd2][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@ddd2][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@ddd2][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@ddd2][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@ddd2][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@ddd2][39m   },
+[debug] [35m[XCUITestDriver@ddd2][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@ddd2][39m     {}
+[debug] [35m[XCUITestDriver@ddd2][39m   ]
+[debug] [35m[XCUITestDriver@ddd2][39m }
+[35m[XCUITestDriver@ddd2 (bbef0787)][39m Session created with session id: bbef0787-0918-46f3-93ea-58c32f360810
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389861 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@8df6][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@8df6][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@8df6][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@8df6][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@8df6][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@8df6][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@8df6][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@8df6][39m   },
+[debug] [35m[XCUITestDriver@8df6][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@8df6][39m     {}
+[debug] [35m[XCUITestDriver@8df6][39m   ]
+[debug] [35m[XCUITestDriver@8df6][39m }
+[35m[XCUITestDriver@8df6 (92d23cf0)][39m Session created with session id: 92d23cf0-e816-4352-8bfd-837f61363d56
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[35m[XCUITestDriver@ddd2 (bbef0787)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@e3a7 (ca7a26c2)][39m iOS SDK Version set to '15.5'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[35m[XCUITestDriver@8df6 (92d23cf0)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@ddd2 (bbef0787)][39m {}
+[35m[XCUITestDriver@8df6 (92d23cf0)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244389958 (10:26:29 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244389958 (10:26:29 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m108 ms - 803[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m99 ms - 803[39m
+[35m[HTTP][39m [90m[39m
+[35m[XCUITestDriver@e3a7 (ca7a26c2)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244389960 (10:26:29 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m120 ms - 803[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389962 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@d95c][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@d95c][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@d95c][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@d95c][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@d95c][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@d95c][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@d95c][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@d95c][39m   },
+[debug] [35m[XCUITestDriver@d95c][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@d95c][39m     {}
+[debug] [35m[XCUITestDriver@d95c][39m   ]
+[debug] [35m[XCUITestDriver@d95c][39m }
+[35m[XCUITestDriver@d95c (0695ac3d)][39m Session created with session id: 0695ac3d-7607-4650-a37d-2059d51489a6
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389971 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@b509][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@b509][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@b509][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@b509][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@b509][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@b509][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@b509][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@b509][39m   },
+[debug] [35m[XCUITestDriver@b509][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@b509][39m     {}
+[debug] [35m[XCUITestDriver@b509][39m   ]
+[debug] [35m[XCUITestDriver@b509][39m }
+[35m[XCUITestDriver@b509 (64220ee0)][39m Session created with session id: 64220ee0-dced-4e5f-8a8c-0a204b0c5b69
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244389979 (10:26:29 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@3a32][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@3a32][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@3a32][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@3a32][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@3a32][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@3a32][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@3a32][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@3a32][39m   },
+[debug] [35m[XCUITestDriver@3a32][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@3a32][39m     {}
+[debug] [35m[XCUITestDriver@3a32][39m   ]
+[debug] [35m[XCUITestDriver@3a32][39m }
+[35m[XCUITestDriver@3a32 (e70678a6)][39m Session created with session id: e70678a6-7b2b-4c3d-bdee-f7a127e706dd
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[35m[XCUITestDriver@b509 (64220ee0)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@d95c (0695ac3d)][39m iOS SDK Version set to '15.5'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[35m[XCUITestDriver@3a32 (e70678a6)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@b509 (64220ee0)][39m {}
+[35m[XCUITestDriver@3a32 (e70678a6)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244390073 (10:26:30 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244390073 (10:26:30 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m104 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m96 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[XCUITestDriver@d95c (0695ac3d)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244390076 (10:26:30 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m114 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244390077 (10:26:30 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@e730][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@e730][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@e730][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@e730][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@e730][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@e730][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@e730][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@e730][39m   },
+[debug] [35m[XCUITestDriver@e730][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@e730][39m     {}
+[debug] [35m[XCUITestDriver@e730][39m   ]
+[debug] [35m[XCUITestDriver@e730][39m }
+[35m[XCUITestDriver@e730 (c48e3ee8)][39m Session created with session id: c48e3ee8-b718-4ca2-aead-e337fa769488
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244390088 (10:26:30 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@3ed2][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@3ed2][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@3ed2][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@3ed2][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@3ed2][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@3ed2][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@3ed2][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@3ed2][39m   },
+[debug] [35m[XCUITestDriver@3ed2][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@3ed2][39m     {}
+[debug] [35m[XCUITestDriver@3ed2][39m   ]
+[debug] [35m[XCUITestDriver@3ed2][39m }
+[35m[XCUITestDriver@3ed2 (b12aa8f0)][39m Session created with session id: b12aa8f0-1ced-46b4-89d6-1fe9af33ca8a
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"}}[39m
+[debug] [35m[AppiumDriver@734f][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 13 Pro","appium:automationName":"XCUITest","appium:app":"/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionRequested' logged at 1658244390097 (10:26:30 GMT-0500 (Central Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver
+[35m[AppiumDriver@734f][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.2) session
+[35m[AppiumDriver@734f][39m Checking BaseDriver versions for Appium and XCUITestDriver
+[35m[AppiumDriver@734f][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@734f][39m XCUITestDriver's BaseDriver version is 8.5.7
+[debug] [35m[XCUITestDriver@282d][39m Creating session with W3C capabilities: {
+[debug] [35m[XCUITestDriver@282d][39m   "alwaysMatch": {
+[debug] [35m[XCUITestDriver@282d][39m     "platformName": "ios",
+[debug] [35m[XCUITestDriver@282d][39m     "appium:platformVersion": "14.5",
+[debug] [35m[XCUITestDriver@282d][39m     "appium:deviceName": "iPhone 13 Pro",
+[debug] [35m[XCUITestDriver@282d][39m     "appium:automationName": "XCUITest",
+[debug] [35m[XCUITestDriver@282d][39m     "appium:app": "/Users/luiscas/Enroute/udemy-courses/appium-udemy/app/ios/MVCTodo.app"
+[debug] [35m[XCUITestDriver@282d][39m   },
+[debug] [35m[XCUITestDriver@282d][39m   "firstMatch": [
+[debug] [35m[XCUITestDriver@282d][39m     {}
+[debug] [35m[XCUITestDriver@282d][39m   ]
+[debug] [35m[XCUITestDriver@282d][39m }
+[35m[XCUITestDriver@282d (17865a2c)][39m Session created with session id: 17865a2c-af75-4ca6-b2e6-038040093f89
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[35m[XCUITestDriver@3ed2 (b12aa8f0)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@e730 (c48e3ee8)][39m iOS SDK Version set to '15.5'
+[debug] [35m[XCUITest][39m Current user: 'luiscas'
+[35m[XCUITestDriver@282d (17865a2c)][39m iOS SDK Version set to '15.5'
+[35m[XCUITestDriver@3ed2 (b12aa8f0)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244390180 (10:26:30 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m94 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[XCUITestDriver@282d (17865a2c)][39m {}
+[35m[XCUITestDriver@e730 (c48e3ee8)][39m {}
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244390182 (10:26:30 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Event 'newSessionStarted' logged at 1658244390182 (10:26:30 GMT-0500 (Central Daylight Time))
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[debug] [35m[AppiumDriver@734f][39m Encountered internal error running command: Error: '14.5' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 8.5, 15.4, 15.5
+[debug] [35m[AppiumDriver@734f][39m     at Simctl.getDevices (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:171:9)
+[debug] [35m[AppiumDriver@734f][39m     at getExistingSim (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/simulator-management.js:71:33)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.determineDevice (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:898:22)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.start (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:334:40)
+[debug] [35m[AppiumDriver@734f][39m     at XCUITestDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium-xcuitest-driver/lib/driver.js:258:7)
+[debug] [35m[AppiumDriver@734f][39m     at AppiumDriver.createSession (/Users/luiscas/Enroute/udemy-courses/appium-udemy/node_modules/appium/lib/appium.js:334:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m86 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m106 ms - 919[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[AppiumDriver@734f][39m There are no active sessions for cleanup
+[35m[HTTP][39m Waiting until the server is closed
+[35m[HTTP][39m Received server close event
